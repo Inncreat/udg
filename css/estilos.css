@@ -192,4 +192,36 @@ body{
 }
 
 
+@media screen and (max-width: 800px) {
 
+.box{
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.box .icon{
+    color: white;
+    font-size: 30px;
+    transform: translateY(0);
+}
+
+.box h4{
+    transform: translateY(0);
+    color: white;
+}
+
+.box p{
+    transform: translateY(0);
+    opacity: 1;
+    color: white;
+}
+
+.box .background-hover{
+    width: 400px;
+    height: 400px;
+    top: -70px;
+    left: -70px;
+}
+
+
+}
